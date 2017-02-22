@@ -1,0 +1,497 @@
+/***************************/
+
+/*     Emirates Graphic    */
+
+/* www.emiratesgraphic.com */
+
+/***************************/
+
+
+/*
+****** FONTS ******
+*/
+
+
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.otf');
+ }
+
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+body {
+	font-family: 'Montserrat-UltraLight';
+}
+
+/*
+******* Page Edition *******
+*/
+
+.header_section {
+	background-image: url('../img/backgorund1-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+}
+
+.logo_header {
+	padding-top: 40px;
+}
+.logo_header img {
+	width: 280px;
+}
+
+.header_content_text {
+	padding-top: 120px;
+	color: white;
+}
+
+.header_content_text h1 {
+	font-size: 60px;
+	font-family: 'PlayfairDisplay-Regular';
+}
+
+.header_content_text p {
+	font-size: 20px;
+}
+
+.header_content_text button {
+	border:none;
+	background-color: #828385;
+	color: white;
+	height: 35px;
+	width: 150px;
+	margin-top: 25px;
+}
+
+
+/*Icons On the Right*/
+
+.desktop_soical_icons {
+	text-align: right;
+	color: white;
+	padding-top: 160px;
+}
+.desktop_soical_icons a {
+	text-decoration: none !important;
+	color: white;
+}
+.desktop_soical_icons i {
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+/*Social Media on mobile*/
+
+.social_media_mobile {
+	text-align: center;
+	color: white;
+	padding-top: 35px;
+}
+
+.social_media_mobile a i {
+	color: white !important;
+	padding: 0px 10px;
+	font-size: 15px;
+}
+
+/*First Section Editing*/
+
+
+.just_img_text {
+	padding:60px 0px;
+	color: #828385;
+
+}
+
+.just_img_text img {
+	width: 100%;
+}
+
+.just_img_text h1 {
+	font-family: 'PlayfairDisplay-Regular';
+	margin-top: 5px;
+}
+.just_img_text p {
+	font-size: 16px;
+}
+.just_img_text button {
+	border:none;
+	background-color: #828385;
+	color: white;
+	height: 35px;
+	width: 150px;
+	margin-top: 10px;
+}
+
+
+/*OWL Panles*/
+.first_slider_home {
+	padding: 40px 0px;
+	background-color: #F1F2F2;
+}
+.small_panel_city {
+	background-color: white;
+}
+
+.small_panel_city img {
+	width: 100%;
+}
+
+.text_small_panel_in {
+	padding: 5px 10px;
+}
+
+.text_small_panel_in h5 {
+	padding-bottom: 5px;
+	font-size: 25px;
+	font-family: 'PlayfairDisplay-Regular';
+	color: #828385;
+}
+.owl_section_nd h1 {
+	text-align: center;
+	font-family: 'PlayfairDisplay-Regular';
+	padding-bottom: 20px;
+}
+.italia_flag {
+	float: right;
+	width: 50px !important;
+	position: absolute;
+	right: 30px;
+	top: 230px;
+}
+
+.text_small_panel_in p {
+	font-size: 13px;
+}
+.text_small_panel_in span {
+	font-family: 'PlayfairDisplay-Regular';
+}
+.text_small_panel_in button {	
+	border:none;
+	background-color: #828385;
+	color: white;
+	height: 25px;
+	width: 110px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.panel_slider_ho {
+	cursor: move;
+}
+
+/*Testimonail slider Home*/
+
+.third_slider_home {
+	background-image: url('../img/backgorund2-01.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	padding: 150px 0px; 
+	color: white;
+}
+.third_slider_home {
+	text-align: center;
+}
+.third_slider_home h1 {
+	font-family: 'PlayfairDisplay-Regular';
+	font-size: 45px;
+}
+.third_slider_home p {
+	font-size: 22px;
+}
+/*Line Section*/
+.line_section_popup {
+	background-color: #5D6A84;
+	padding: 10px 0px;
+}
+
+.line_section_popup h1 {
+	color: white;
+	font-family: 'PlayfairDisplay-Regular';
+	margin-top: 15px;
+	float: right;
+}
+.line_section_popup button {
+	background-color: #00A4EF;
+	color: white;
+	height: 35px;
+	width: 170px;
+	font-size: 20px;
+	border: none;
+	font-family: 'Montserrat-UltraLight';
+	margin-top: 20px;
+	float: left;
+}
+
+
+/*Passport Slider*/
+.passport_title {
+	padding: 70px 0px 0px;
+}
+.passport_title h1 {
+	font-family: 'PlayfairDisplay-Regular';
+	color: #828385;
+}
+.passport_title p {	
+	color: #828385;
+}
+.passport_title img {
+	width: 100%;
+	padding-top: 30px;
+}
+.last_slider_home {
+	padding: 30px 0px 70px;
+}
+
+.small_panel_passport {
+	border: solid 1px #828385;
+}
+
+.text_small_panel_passport {
+	padding: 10px;
+	color: #828385;
+}
+.text_small_panel_passport span {
+	font-size: 9px;
+}
+.text_small_panel_passport h5 {
+	font-family: 'PlayfairDisplay-Regular';
+	font-size: 24px;
+	margin-top: 3px;
+}
+.text_small_panel_passport p {
+	font-size: 13px;
+}
+.text_small_panel_passport button {
+    border: none;
+    background-color: #828385;
+    color: white;
+    height: 25px;
+    width: 110px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+/*Contact Input */
+
+
+.contact_section_footer h1{
+	color: white;
+	text-align: center;
+	font-family: "Montserrat-UltraLight";
+	font-weight: bold;
+	font-size: 45px;
+}
+.contact_section_footer p {
+	text-align: center;
+	color: white;
+}
+.contact_section_footer {
+	padding: 100px 0px;
+	background-image: url('../img/contact_us_bg-01.png');
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contact_section_footer input {
+	width: 100%;
+	margin: 3px 0px;
+	height: 35px;
+	padding: 10px;
+	border-radius: 5px;
+	border:none;
+}
+.contact_section_footer textarea {
+	width: 100%;
+	margin: 3px 0px;
+	padding: 10px;
+	border-radius: 5px;
+	border:none;
+}
+
+
+.contact_section_footer button{
+    border: none;
+    background-color: #828385;
+    color: white;
+    height: 30px;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+
+.footer_all_p {
+	background-color: #2A2E3A; 
+	padding: 20px 0px;
+	color: white;
+}
+
+.copy_footer a {
+	color: white;
+	text-decoration: none !important;
+	font-size: 16px;
+	font-family: "Montserrat-UltraLight";
+	font-weight: bold;
+}
+
+.social_footer {
+	text-align: right;
+}
+.social_footer a i {
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+
+/*Modal style*/
+
+.modal-header {
+    padding: 15px;
+     border-bottom: 0px solid #e5e5e5; 
+}
+
+.modal-title {
+	font-family: 'PlayfairDisplay-Regular';
+	color: #828385;
+	font-size: 30px;
+}
+.modal-body input {
+	width: 100%;
+	margin-top: 10px 0px !important;
+	height: 35px;
+	border-radius: 4px;
+	border: solid 1px #828385;
+	padding-left: 10px;
+}
+.modal-body button {
+	width: 100%;
+	height: 35px;
+	background-color: #828385;
+	color: white;
+	font-size: 12px;
+	border: solid 1px #828385;
+	padding-left: 10px;
+}
+.grid-margin {
+	margin-top: 10px;
+}
+
+
+
+.modal-footer {
+    padding: 15px;
+    text-align: left;
+    border-top: 0px solid #e5e5e5;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    margin: 5px 7px;
+    background: #828385;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(192, 199, 214) ;
+}
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n{
+        display: none !important;
+    }
+    .logo_header {
+	padding-top: 40px;
+	text-align: center;
+	}
+	.logo_header img {
+		width: 220px !important;
+	}
+
+    .italia_flag {
+		float: right;
+		width: 50px !important;
+		position: absolute;
+		right: 30px;
+		top: 265px;
+	}
+
+	.header_content_text {
+	    padding-top: 20px;
+	    color: white;
+	}
+	.header_content_text h1 {
+	    font-size: 40px;
+	    font-family: 'PlayfairDisplay-Regular';
+	}
+	.header_content_text p {
+	    font-size: 14px;
+	}
+
+	.line_section_popup h1 {
+	    color: white;
+	    font-family: 'PlayfairDisplay-Regular';
+	    /*margin-top: 21px;*/
+	    float: right;
+	    font-size: 19px;
+	}
+	.line_section_popup button {
+	    background-color: #00A4EF;
+	    color: white;
+	    height: 35px;
+	    width: 139px;
+	    font-size: 17px;
+	    border: none;
+	    font-family: 'Montserrat-UltraLight';
+	    margin-top: 8px;
+	    float: left;
+	}
+	.copy_footer {
+		display: none;
+	}
+	.social_footer {
+		text-align: center;
+	}
+	.contact_section_footer {
+		padding: 20px 0px;
+	}
+}
